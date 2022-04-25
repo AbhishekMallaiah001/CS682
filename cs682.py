@@ -3,7 +3,6 @@ import pandas as pd
 import requests
 import datetime
 import geocoder
-from json2html import *
 import json
 import webbrowser
 from beautifultable import BeautifulTable
