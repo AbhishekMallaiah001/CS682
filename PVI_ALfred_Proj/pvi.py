@@ -37,7 +37,7 @@ def get_location():
         loc+= ', '+city
     if county:
         loc+= ', '+county
-    ls1.append("Location")
+    ls1.append("")
     ls2.append(loc)
     res = ip.state
     if county:
@@ -53,15 +53,26 @@ def get_formatted_results():
         value = ls2[i]
         if i >= 1:
             value = value[:4]
-        result = {
-            "title": ls1[i]+': '+str(value),
-            "subtitle": '782'+str(i),
-            "arg": 'aksd_'+str(i),
-            "autocomplete": 'pvi data_ '+str(i),
-            "icon": {
-                "path": "covid_icon.png"
-             }
-        }
+        if i == 0:
+            result = {
+                "title": str(value),
+                "subtitle": ' ',
+                "arg": ' ',
+                "autocomplete": 'pvi data_ '+str(i),
+                "icon": {
+                    "path": "covid_icon.png"
+                 }
+            }
+        else:
+            result = {
+                "title": ls1[i]+' : '+str(value),
+                "subtitle": ' ',
+                "arg": ' ',
+                "autocomplete": 'pvi data_ '+str(i),
+                "icon": {
+                    "path": "covid_icon.png"
+                 }
+            }
         formatted_results.append(result)
 
     return formatted_results
