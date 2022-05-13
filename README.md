@@ -21,7 +21,7 @@ Health & Environment: Hospital Beds
 Health & Environment: Hospital Ventilators
 Health & Environment: Air Pollution
 
-Screenshot if the result
+Screenshot of the result
 -----------------------------------------
 
 ![Results_1st requirement](https://user-images.githubusercontent.com/78864285/168329646-f02fe023-13bf-496a-8974-23444b4c4190.png)
