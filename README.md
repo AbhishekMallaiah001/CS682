@@ -2,7 +2,7 @@ The README, for 1st Requirement.
 
 STEP1: Download the PVI data for last 30 days.
 
-STEP2: Find the location based on the Zipcode provided by USER.
+STEP2: Find the location based on the Zipcode provided by USER, if the user does not procide any Zipcode then consider the Location to where the system IP belogs.
 
 STEP3: Calculate the avg for 7 days, 14dya and 30 days data . 
 
