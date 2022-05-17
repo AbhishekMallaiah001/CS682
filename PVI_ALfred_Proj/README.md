@@ -22,7 +22,7 @@ STEP 5: Right-Click on the workflow and select the "open in finder" and copy the
 ![Image 5-9-22 at 7 35 PM](https://user-images.githubusercontent.com/78864285/167523342-8d3e317a-b7a3-4dda-9bae-df063a53f237.JPG)
 
 STEP 6: Right-Click on the workflow as the above image and select "open in terminal" (Below the "open in finder"). and install the below mentioned packages 
-       requests , geocoder , datetime , json , csv using the cmd  " pip3 install --target=. <PACKAGE_NAME> "
+       requests , geocoder , datetime , using the cmd  " pip3 install --target=. <PACKAGE_NAME> "
        
 STEP 7: Then type "pvid" on the alfred toggle" (serach bar) you can see the below output.
 
