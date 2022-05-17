@@ -1,8 +1,11 @@
-Directcly installing the PVID workflow , 
+Directcly installing the PVID workflow ,                     
+
 Step :1
 Keep the alfred application running, 
+
 Step :2
 Just download the pvid_new.alfredworkflow to your local system.
+
 STEP : 3 
 Doublle click on the downloaded file , then there will be a popup open in the Alfred app, just click on import. 
 
