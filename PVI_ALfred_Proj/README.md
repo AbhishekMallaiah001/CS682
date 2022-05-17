@@ -1,3 +1,14 @@
+Directcly installing the PVID workflow , 
+Step :1
+Keep the alfred application running, 
+Step :2
+Just download the pvid_new.alfredworkflow to your local system.
+STEP : 3 
+Doublle click on the downloaded file , then there will be a popup open in the Alfred app, just click on import. 
+
+Now all set you can type pvid on the alfred toggle. 
+
+For creating Manually please follow bellow steps.
 
 Alfred workflow of the PVI data and display the PVI data of the current location in weather workflow fashion :
 
